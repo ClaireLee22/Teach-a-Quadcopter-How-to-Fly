@@ -21,9 +21,9 @@ Shape reward functions and train the agent to achieve this task.
 - Achieved at most the height of 5 units
 
 ### Reflection
-- Crafting reward functions is critical to the agent's performance.
-- Needed more professional parameter estimation techniques and have further knowledge of drone physics to shape better reward functions.
-- Balanced reward and penalty.
+- Craft reward functions is critical to the agent's performance.
+- Need more professional parameter estimation techniques and have further knowledge of drone physics to shape better reward functions.
+- Balance reward and penalty.
 
 
 ## Getting Started
