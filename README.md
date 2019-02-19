@@ -6,6 +6,8 @@ Reinforcement Learning(RL) Project [Udacity Deep Learning Nanodegree]
 Use Deep Deterministic Policy Gradients(DDPG), an actor-critic method, to build the agent that can learn takeoff task on its own. 
 Shape reward functions and train the agent to achieve this task.
 
+<img src='assets/DDPG.gif'>
+
 ### Project Procedure
 - Define the taskoff task
   - Reach the target height(Z-axis value) of 10 units above the ground
