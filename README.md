@@ -18,7 +18,7 @@ Shape reward functions and train the agent to achieve this task.
 - Evaluate agent's performance
 
 ### Project Results
-- Achieved at most the height of 5 units
+- Achieved at most the height of 5 units on testing result.
 
 ### Reflection
 - Craft reward functions is critical to the agent's performance.
