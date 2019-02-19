@@ -43,11 +43,11 @@ You will also need to have software installed to run and execute an [iPython Not
 In a terminal or command window, run one of the following commands:
 
 ```bash
-ipython notebook Your_first_neural_network.ipynb
+ipython notebook Quadcopter_Project.ipynb
 ```  
 or
 ```bash
-jupyter notebook Your_first_neural_network.ipynb
+jupyter notebook Quadcopter_Project.ipynb
 ```
 
 This will open the iPython Notebook software and project file in your browser.
