@@ -14334,18 +14334,16 @@ div#notebook {
 
 </div>
 </div>
-</div>|------------------------------------------|---------------------------------------------------------------------|
-|          Actor neural network            |                        Critic neural network                        | 
-|------------------------------------------|---------------------------------------------------------------------|
-|             Adam(lr=1e-4)                |                             Adam(lr=1e-3)                           |  
-|------------------------------------------|---------------------------------------------------------------------|
-| state --> 3 hidden layers --> actions    |   state -->  2 hidden layers --\                                    |
-| (input)     (32, 64, 32)      (output)   |   (input)      (32, 64)         \merge --> output layer --> Q-value |
-|                                          |                                 /            (1)            (output)|
-|                                          |   actions --> 2 hidden layers--/                                    |
-|                                          |   (input)       (32, 64)                                            |    |------------------------------------------|---------------------------------------------------------------------|
-|            Activation(relu)              |                            Activation(relu)                         |
-|------------------------------------------|---------------------------------------------------------------------|
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src='assets/model_architecture.png' width='800px'></p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
